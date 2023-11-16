@@ -1,8 +1,4 @@
-/*variable "ec2_instance_count"{
-    description = "EC2 Instance Count"
-    type = number
-    default = 1
-}
+
 variable "instance_type"{
     description = "EC2 Instance Type"
     type = string
@@ -22,6 +18,5 @@ variable "ami"{
 variable "instance_count"{
     description = "number of instant gonna create"
     type = number 
-    default = 2
+    default = 10
 }
-*/
