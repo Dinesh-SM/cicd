@@ -24,4 +24,5 @@ variable "instance_count"{
 variable "name" {
     description = "Name for the AWS instance"
     type        = string
+    default     = "middle"
 }
