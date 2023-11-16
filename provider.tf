@@ -6,11 +6,13 @@ terraform {
       version = "5.24.0"
     }
   }
+/*
   backend "s3" {
   bucket = "terrform-aws-cicd"
   key    = "state/terraform.tfstate"
   region = "us-east-1"
 }
+*/
 }
 
 provider "aws" {
