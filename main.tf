@@ -5,6 +5,6 @@ resource "aws_instance" "app_server" {
   availability_zone = var.availability_zone
 
   tags = {
-    Name = "first"
+    Name = var.name
   }
 }
