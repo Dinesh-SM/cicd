@@ -1,4 +1,4 @@
-variable "ec2_instance_count"{
+/*variable "ec2_instance_count"{
     description = "EC2 Instance Count"
     type = number
     default = 1
@@ -24,3 +24,4 @@ variable "instance_count"{
     type = number 
     default = 2
 }
+*/
