@@ -14,9 +14,14 @@ variable "ami"{
     type = string
     default = "ami-05c13eab67c5d8861"
 }
-
+/*
 variable "instance_count"{
     description = "number of instant gonna create"
     type = number 
     default = 10
+}
+*/
+variable "name" {
+    description = "Name for the AWS instance"
+    type        = string
 }
