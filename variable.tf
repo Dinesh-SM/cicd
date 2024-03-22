@@ -25,3 +25,8 @@ variable "name" {
     type        = string
     default     = "middle"
 }
+variable "region" {
+    description = "resource region"
+    type        = string
+    default     = "us-west-2"
+}
