@@ -3,6 +3,7 @@ resource "aws_instance" "app_server" {
   ami               = var.ami
   instance_type     = var.instance_type
   availability_zone = var.availability_zone
+  region            = var.region  
 
   tags = {
     Name = var.name
