@@ -18,7 +18,7 @@ variable "ami"{
 variable "instance_count"{
     description = "number of instant gonna create"
     type = number 
-    default = 0
+    default = 1
 }
 variable "name" {
     description = "Name for the AWS instance"
