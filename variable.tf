@@ -33,5 +33,5 @@ variable "region" {
 variable "MailAlias" {
     description = "mail id in tag"
     type        = string
-    default     = "cdo@cisco.com
+    default     = "cdo@cisco.com"
 }
