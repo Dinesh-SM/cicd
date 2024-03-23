@@ -35,3 +35,9 @@ variable "MailAlias" {
     type        = string
     default     = "cdo@cisco.com"
 }
+
+variable "PayType" {
+    description = "PayType tag"
+    type        = string
+    default     = "paying"
+}
