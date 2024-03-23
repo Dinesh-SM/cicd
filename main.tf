@@ -4,5 +4,6 @@ resource "aws_instance" "app_server" {
   instance_type     = var.instance_type
   tags = {
     Name = var.name
+    MailAlias = var.MailAlias
   }
 }
