@@ -5,5 +5,6 @@ resource "aws_instance" "app_server" {
   tags = {
     Name = var.name
     MailAlias = var.MailAlias
+    Environment = var.${params.REGION}
   }
 }
